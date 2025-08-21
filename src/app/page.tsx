@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Navbar from '@/components/Navbar'
 import Hero from '@/app/hero/page'
-import About from '@/app/about/page'
+import About from '@/components/About'
 import Services from '@/app/service/page'
 import Contact from '@/app/contact/page'
 import Footer from '@/components/Footer'
