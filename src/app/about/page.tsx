@@ -61,6 +61,12 @@ const HeartWithBeat = ({ className = "w-8 h-8" }) => (
   </div>
 );
 
+interface AboutProps {
+  showBgImage?: boolean;
+  isAboutPage?: boolean;
+}
+
+
 const About = ({ showBgImage = true, isAboutPage = false }: AboutProps) => {
   const bgImage = sectionImages.about;
 
