@@ -1,3 +1,7 @@
+
+
+"use client";
+
 import { sectionImages } from '../../components/imgs';
 import { Heart, Monitor, Camera, Bed, Users } from 'lucide-react';
 
